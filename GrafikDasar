@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+nama = ('A', 'B', 'C', 'D')
+nilai = [12390,12333,11232,13454]
+#alpha = tingkat transparansi 
+plt.bar(nama, nilai, alpha=0.5)
+#bikin sumbu x
+plt.xticks(nama)
+plt.ylabel("Penjualan")
+plt.xlabel("Merk")
+plt.title("Contoh")
+
+plt.show()
